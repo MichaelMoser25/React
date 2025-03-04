@@ -15,3 +15,5 @@ const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 root.render(<Hello />);
 ```
+
+Command to run React application: ```npx create-react-app my-team```
