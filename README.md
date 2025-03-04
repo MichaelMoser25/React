@@ -3,7 +3,15 @@
 - React is used to build single-page applications
 - React allows us to create reusable UI components
 
-```React
+```
 import React from 'react'
+import ReactDOM from 'react-dom/client';
 
+funtction Hello(props) {
+  return <h1>Hello World!</h1>;
+}
+
+const container = document.getElementById("root");
+const root = ReactDOM.createRoot(container);
+root.render(<Hello />);
 ```
